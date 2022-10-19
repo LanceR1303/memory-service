@@ -50,3 +50,8 @@ Open the Browser and navigate to `http://localhost:8000/swagger-ui/index.html#/`
 - Java 11 or higher
 - Packaging with `jar`
 - Containerized with Docker
+
+### Running the application in Kubernetes
+* Ensure that postgres chart is installed and postgres user is configured with default password
+* Enable port-forwarding
+* Run `mvn spring-boot:run`

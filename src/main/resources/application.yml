@@ -10,7 +10,8 @@ spring:
   profiles:
     active: dev
   datasource:
-    password: postgres
+    ## Obtain password by running  kubectl get secret --namespace default postgres-postgresql -o jsonpath="{.data.postgres-password}" | base64 -d
+    password: EEdR26R13B
     url: jdbc:postgresql://localhost:5432/sptest
     username: postgres
   jpa:
