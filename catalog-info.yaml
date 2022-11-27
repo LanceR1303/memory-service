@@ -5,6 +5,7 @@ metadata:
   description: The memory service web service
   annotations:
     github.com/project-slug: LanceR1303/memory-service
+    backstage.io/adr-location: doc/adr
 spec:
   type: service
   owner: memory-service-squad
