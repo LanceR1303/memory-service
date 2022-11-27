@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: memory-service
+  description: The memory service web service
+  annotations:
+    github.com/project-slug: LanceR1303/memory-service
+spec:
+  type: service
+  owner: memory-service-squad
+  lifecycle: experimental
