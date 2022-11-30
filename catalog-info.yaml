@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: memory-service
-  description: The memory service web service latest service
+  description: The memory service web service.
   annotations:
     github.com/project-slug: LanceR1303/memory-service
     backstage.io/adr-location: doc/adr
@@ -10,6 +10,6 @@ spec:
   type: service
   owner: memory-service-squad
   lifecycle: experimental
-  #providesApis:
-   # - artist-api
+  providesApis:
+    - memory-service-rest
 
