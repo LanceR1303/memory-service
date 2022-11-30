@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: memory-db
+  description: Stores memory objects
+spec:
+  type: database
+  owner: memory-service-squad
+  system: memory-service
