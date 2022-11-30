@@ -10,6 +10,8 @@ spec:
   type: service
   owner: memory-service-squad
   lifecycle: experimental
+  dependsOn:
+    - resource:default/memory-db
   providesApis:
     - memory-service-rest
 
