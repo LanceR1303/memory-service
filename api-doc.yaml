@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: memory-service-rest
+  description: The memory service rest api
+spec:
+  type: openapi
+  owner: memory-service-squad
+  lifecycle: experimental
+  system: memory-service
+  definition:
+    $text: ./api/openapi.yaml
+
