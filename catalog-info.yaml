@@ -6,6 +6,7 @@ metadata:
   annotations:
     github.com/project-slug: LanceR1303/memory-service
     backstage.io/adr-location: doc/adr
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   owner: memory-service-squad
